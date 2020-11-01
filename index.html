@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale="1.0">
+    <title>DEMO SCHOOL SITE</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/css/bootstrap.min.css" integrity="sha384-DhY6onE6f3zzKbjUPRc2hOzGAdEf4/Dz+WJwBvEYL/lkkIsI3ihufq9hk9K4lVoK" crossorigin="anonymous">
+    <style>
+     body{
+       margin:0;
+     }
+      .courses{
+        padding:5px;
+        float:right;
+        background-color:white;
+        color:black;
+        margin-top:40px;
+        font-size:20px;
+        text-transform:uppercase;
+      }
+
+      .nav-link{
+        padding:5px;
+        /*background-color:white;*/
+        color:black;
+        margin-top:40px;
+        font-size:20px;
+        text-transform:uppercase;
+      }
+
+      .nav-link a:hover{
+        color:warning;
+      }
+
+      .logo{
+        width:250px;
+        height:100px;
+        margin-top:15px;
+        margin-bottom:15px;
+        margin-left:5%;
+      }
+
+      .front-img{
+        width:100%;
+}
+
+.container{
+  background-color:#eeeeee;
+  height:auto;
+  margin:auto;
+  text-align:center;
+  border-top:6px solid white;
+
+}
+
+.five{
+  display:inline-block;
+  width:15%;
+  color:white;
+  font-size:20px;
+  margin-left:20px;
+  margin-right:20px;
+  padding:30px 20px;
+  text-align:justify;
+  }
+.child{
+  display:inline-block;
+  width:300px;
+  height:250px;
+  background-color: white;
+  margin-top:50px;
+  margin-right:15px;
+  margin-bottom:15px;
+}
+
+.horiz{
+  border-bottom:0;
+  border-right:0;
+  border-left:0;
+  border-top:2px solid black;
+  width:50px;
+  opacity:1;
+  margin-top:40px;
+  margin-left:23px;
+}
+
+.feature{
+  text-align:left;
+  margin-top:10px;
+  padding-left:23px;
+  padding-top:10px;
+  float:left;
+  background-color:inherit;
+  color:black;
+}
+
+.news{
+  text-align:left;
+  margin-top:10px;
+  padding-left:23px;
+  padding-top:10px;
+  float:left;
+  color:black;
+}
+
+h6{
+  line-height:35px;
+  padding-left:40px;
+  padding-right:40px;
+}
+.three{
+  width:350px;
+}
+
+.four{
+  width:300px;
+  margin-left:20px;
+  margin-right:20px;
+}
+a{
+  text-decoration:none;
+  color:black
+  }
+.graduation{
+  width:100%;
+  height:auto;
+}
+.bottom-container{
+  margin-top:10px;
+}
+
+.one{
+  background-color:#150485;
+  height:150px;
+  color:white;
+  text-align:center;
+  border-top:3px solid white;
+  border-bottom:3px solid white;
+
+}
+
+.two{
+  background-color:#f0a500;
+  height:150px;
+  color:white;
+  text-align:center;
+  border-top:3px solid white;
+  border-bottom:3px solid white;
+}
+
+.container-fluid{
+  padding-left:0;
+  padding-right:0;
+}
+.col-lg-4 col-md-6 col-sm-12{
+  padding-left:0;
+  padding-right:0;
+}
+
+.row{
+  --bs-gutter-x: 0;
+--bs-gutter-y:0;
+margin-top:50px;
+}
+
+h3{
+  padding-top:50px;
+  color:white;
+}
+.lists{
+  list-style-type:none;
+}
+
+  ul li{
+    color:white;
+    padding-bottom:5px;
+    font-size:20px;
+    width:auto;
+  }
+
+ul{
+  padding-left:0;
+}
+  h4{
+    color:#f0a500;
+  }
+
+  .wrapper{
+    text-align:left;
+    margin-left:50px;
+  }
+
+  .wrapper2{
+    width:60%;
+    margin:auto;
+    }
+
+.cthree{
+  position:relative;
+  width:100%;
+  height:100px;
+  border:1px solid #f4f4f2;
+  margin:auto;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+  }
+.date{
+  position:absolute;
+  width:46px;
+  height:50px;
+  border:1px solid black;
+  top:15px;
+
+}
+
+.child1{
+  position:absolute;
+  width:300px;
+  height:50px;
+  border:1px solid black;
+  left: 60px;
+  top:15px;
+  }
+  .gps{
+    position:absolute;
+    width:300px;
+    height:25px;
+    border:1px solid blue;
+    left: 60px;
+    top:40px;
+    background-color:aliceblue;
+
+    }
+
+  h5{
+    display:inline-block
+  }
+</style>
+</head>
+<body>
+
+ <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <img class="logo" src="images1/logo.png">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup" style="padding-left:230px; padding-bottom:50px;">
+      <div class="navbar-nav">
+        <a class="nav-link" href="#">About Us</a>
+        <a class="nav-link" href="#">Admissions</a>
+        <a class="nav-link" href="#">Academics</a>
+        <a class="nav-link" href="#">Students</a>
+        <a class="nav-link" href="#">News</a>
+        </div>
+    </div>
+  </div>
+</nav>
+
+<div class="top-container">
+  <img class="front-img" src="images1/img6.jpg">
+</div>
+
+<div class="container-fluid">
+<h3 class="feature">Featured Courses</h3> <br /><br />
+<hr class="horiz">
+<div class="container-fluid">
+  <div class="row" style="text-align:center;">
+    <div  class="col-lg-4 col-md-6 col-sm-12"><a href="#"><img class="three" src="images1/img2.jpg"></a><a href="#"><h6>MA in Impact Entrepreneurship and Innovation</h6></a></div>
+    <div  class="col-lg-4 col-md-6 col-sm-12"><a href="#"><img class="three" src="images1/img3.jpg"></a><a href="#"><h6>MA in Peace, Security and Intelligence Management (MPSI)</h6></a></div>
+    <div  class="col-lg-4 col-md-6 col-sm-12"><a href="#"><img class="three" src="images1/img8.jpg"></a><a href="#"><h6>MA in Brands and Communications</h6></a></div>
+  </div>
+</div>
+</div>
+
+
+<div class="bottom-container"><img class="graduation" src="images1/grad.jpg"></div>
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12"><div class="one"><a href="#"><h3>Undergraduate Admissions</h3></a><p>
+      Explore our undergraduate programmes</p></div></div>
+    <div class="col-lg-4 col-md-6 col-sm-12"><div class="two"><a href="#"><h3>Postgraduate Admissions</h3></a><p>
+      Apply now for a postgraduate programme</p></div></div>
+    <div class="col-lg-4 col-md-6 col-sm-12"><div class="one"><a href="#"><h3>Professional Programmes </h3></a><p>
+      Continuing studies and professional development</p></div></div>
+    </div>
+  </div>
+
+
+
+
+  <div class="container-fluid" style=" text-align:center;">
+    <div class="row"  style="width:100%; height:auto;">
+      <div class="col-lg-12 col-md-12 col-sm-12">
+
+       <div class="wrapper2">
+        <h3 class="feature">Events</h3> <br /><br />
+        <hr class="horiz">
+
+        <div class="cthree" style="text-align:left;"><div class="date">12 Nov.</div>
+          <div class="child1"><a href="#"><h5>UPSA Quarterly Roundtable</h5></a></div>
+          <div class="gps"></div>
+        </div>
+
+        <div class="cthree" style="text-align:left;"><div class="date">26 Nov.</div>
+          <div class="child1"><a href="#"><h5>Eminent Guest Lecture Series</h5></a></div>
+          <div class="gps"></div>
+        </div>
+        <div class="cthree" style="text-align:left;"><div class="date">28 Nov.</div>
+          <div class="child1"><a href="#"><h5>UPSA African Customary Law Conference</h5></a></div>
+          <div class="gps"></div>
+        </div>
+
+        </div>
+      </div>
+      </div>
+    </div>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12" style="width:100%; height:350px; background-color:#150485;"></div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="background-color:inherit;">
+  <h3 class="news">News</h3> <br /><br />
+  <hr class="horiz">
+
+    <div class="row">
+      <div  class="col-lg-3 col-md-6 col-sm-12" style="text-align:center;"><a href="#"><img class="four" src="images1/img5.jpg"></a><a href="#"><h6>MA in Impact Entrepreneurship and Innovation</h6></a></div>
+      <div  class="col-lg-3 col-md-6 col-sm-12" style="text-align:center;"><a href="#"><img class="four" src="images1/img7.jpg"></a><a href="#"><h6>MA in Peace, Security and Intelligence Management (MPSI)</h6></a></div>
+      <div  class="col-lg-3 col-md-6 col-sm-12" style="text-align:center;"><a href="#"><img class="four" src="images1/img9.jpg"></a><a href="#"><h6>MA in Brands and Communications</h6></a></div>
+      <div  class="col-lg-3 col-md-6 col-sm-12" style="text-align:center;"><a href="#"><img class="four" src="images1/img10.jpg"></a><a href="#"><h6>MA in Brands and Communications</h6></a></div>
+    </div>
+  </div>
+
+  <div class="container-fluid" style="height:500px;">
+  </div>
+
+  <div class="container-fluid" style="text-align:center;">
+    <div class="row"  style="height:auto; padding-left:10%; padding-right:5%; padding-top:40px; color:white; background-color:#150485;">
+
+      <div class="col-lg-2 col-md-2 col-sm-12">
+          <div class="wrapper">
+          <h4>About</h4>
+        <ul class="lists">
+          <a href="#"><li>History</li></a>
+          <a href="#"><li>Office of VC</li></a>
+          <a href="#"><li>Office of Pro-VC</li></a>
+          <a href="#"><li>VC Endowment Fund</li></a>
+          <a href="#"><li>Policies</li></a>
+          <a href="#"><li>Publications</li></a>
+          <a href="#"><li>Announcements</li></a>
+        </ul>
+        </div>
+        </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <div class="wrapper">
+          <h4>Admissions</h4>
+        <ul class="lists">
+          <a href="#"><li>Undergraduate</li></a>
+          <a href="#"><li>Postgraduate</li></a>
+          <a href="#"><li>Professional Programmes</li></a>
+          <a href="#"><li>Diploma</li></a>
+          <a href="#"><li>Distance Learning</li></a>
+        </ul>
+      </div>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <div class="wrapper">
+          <h4>Academics</h4>
+          <ul class="lists">
+          <a href="#"><li>Academic Affairs</li></a>
+          <a href="#"><li>Schools & Faculties</li></a>
+          <a href="#"><li>Research</li></a>
+          <a href="#"><li>Internships & Industry</li></a>
+          <a href="#"><li>Relations</li></a>
+          <a href="#"><li>Graduation</li></a>
+        </ul>
+      </div>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <div class="wrapper">
+          <h4>Students</h4>
+          <ul class="lists">
+        <a href="#"><li>Student Services</li></a>
+          <a href="#"><li>Counseling Unit</li></a>
+          <a href="#"><li>Freshmen Info.</li></a>
+          <a href="#"><li>Campus Life</li></a>
+          <a href="#"><li>Hostels</li></a>
+          <a href="#"><li>Sports</li></a>
+          <a href="#"><li>Online Payment</li></a>
+        </ul>
+      </div>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-12">
+        <div class="wrapper">
+          <h4>Contact</h4>
+          <ul class="lists">
+          <a href="#"><li>+233 228422</li></a>
+          <a href="#"><li>+233 6882250</li></a>
+          <a href="#"><li>easy101code@gmail.com</li></a>
+          </ul>
+      </div>
+      </div>
+
+      <div class="col-lg-2 col-md-2 col-sm-12" style="display:none;">
+    </div>
+  </div>
+
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha2/js/bootstrap.bundle.min.js" integrity="sha384-BOsAfwzjNJHrJ8cZidOg56tcQWfp6y72vEJ8xQ9w6Quywb24iOsW913URv1IS4GD" crossorigin="anonymous"></script>
+</body>
+</html>
